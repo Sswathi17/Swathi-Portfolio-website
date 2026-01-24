@@ -2,6 +2,7 @@ import React from 'react';
 import { Download, Mail } from 'lucide-react';
 import HeroImage from '../assets/Hero_image.png';
 import TypingText from "../components/TypingText";
+import CV from '../assets/Swathi Resume.pdf';
 
 
 
@@ -118,17 +119,12 @@ lg:mt-14 mt-0">
                 data-aos="fade-up"
                 data-aos-delay="700"
               >
-                <a
-  href="/Swathi Resume pdf.pdf"
-  download
-  className="w-full sm:w-auto"
->
-  <button className="w-full sm:w-auto inline-flex items-center justify-center text-white bg-orange-500 hover:bg-orange-600 border-0 py-3 px-6 sm:px-8 hover:shadow-[0_0_40px_rgba(255,165,0,0.7)] rounded-full text-base sm:text-lg font-semibold transition-all duration-300 transform">
-    <Download className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
-    Download CV
-  </button>
-</a>
-
+                <a href={CV} download className="w-full sm:w-auto">
+                  <button className="w-full sm:w-auto inline-flex items-center justify-center text-white bg-orange-500 hover:bg-orange-600 border-0 py-3 px-6 sm:px-8 hover:shadow-[0_0_40px_rgba(255,165,0,0.7)] rounded-full text-base sm:text-lg font-semibold transition-all duration-300 transform">
+                    <Download className="w-4 h-4 sm:w-5 sm:h-5 mr-2" />
+                    Download CV
+                  </button>
+                </a>
 
                 <a href="#contact" className="w-full sm:w-auto">
                   <button
