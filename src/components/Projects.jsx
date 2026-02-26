@@ -88,7 +88,8 @@ Built using React for the frontend, Node.js for the backend, and MongoDB for dat
 Built with React, Node.js, and MongoDB for a seamless and dynamic shopping experience.`, 
       image: project8, 
       tags: ['React', 'Node.js', 'MongoDB'],
-      live: '#'
+      live: "https://grocery-website-self.vercel.app/",
+       github:"https://github.com/Sswathi17/Grocery-website"
     },
     { 
       id: 9, 
