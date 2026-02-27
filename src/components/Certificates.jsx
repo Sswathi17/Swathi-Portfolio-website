@@ -1,6 +1,5 @@
 // Certificates.jsx
 import React, { useState, useEffect } from "react";
-import qspidersCertificate from '../assets/qspiders_certificate.jpeg';
 import techVedhuCertificate from '../assets/tech_vedhu_certificate.jpeg';
 import startnetCertificate from '../assets/startnet_certificate.jpeg';
 import sixSigmaCertificate from '../assets/six_sigma_certificate.jpeg';
@@ -9,7 +8,6 @@ const Certificates = ({ darkMode }) => {
   const [selectedCert, setSelectedCert] = useState(null);
 
   const certificates = [
-    { name: "MERN Stack Development Course", image: qspidersCertificate },
     { name: "UI/UX Design Course", image: techVedhuCertificate },
     { name: "Web Developer Internship", image: startnetCertificate },
     { name: "FrontEnd Developer Internship", image: sixSigmaCertificate },
