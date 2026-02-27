@@ -2,7 +2,7 @@ import React from 'react';
 import { Download, Mail } from 'lucide-react';
 import HeroImage from '../assets/Hero_image.png';
 import TypingText from "../components/TypingText";
-import CV from '../assets/Swathi Resume.pdf';
+import CV from '../assets/Swathi resume.pdf';
 
 
 
