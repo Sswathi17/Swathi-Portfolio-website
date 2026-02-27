@@ -70,17 +70,20 @@ Styled with Tailwind CSS for a responsive, visually appealing, and fast-loading 
 Built with React to manage state dynamically and provide a smooth user experience.`, 
       image: project6, 
       tags: ['React'],
-      live: '#'
+      live: 'https://react-to-do-list-app-psi.vercel.app/',
+      github:"https://github.com/Sswathi17/React-ToDo-List-App."
     },
     { 
-      id: 7, 
-      title: 'MERN Auth', 
-      desc: `A full-stack authentication system with secure login, registration, and user management.
-Built using React for the frontend, Node.js for the backend, and MongoDB for data storage.`, 
-      image: project7, 
-      tags: ['React', 'Node.js', 'MongoDB'],
-      live: '#'
-    },
+  id: 7, 
+  title: 'CRUD-Employee Management System', 
+  desc: `A full-stack employee management system with secure authentication and role-based access control.
+Built using React for the frontend, Node.js and Express for the backend, and MongoDB for database management. 
+Features include adding, updating, deleting employees, and protected routes with JWT authentication.`, 
+  image: project7, 
+  tags: ['React', 'Node.js', 'Express', 'MongoDB', 'JWT'],
+  live: 'https://employee-crud-mern-website.vercel.app/',
+  github:"https://github.com/Sswathi17/employee-crud-mern-website"
+},
     { 
       id: 8, 
       title: 'Grocery App', 
@@ -98,11 +101,12 @@ Built with React, Node.js, and MongoDB for a seamless and dynamic shopping exper
 Built with React, Node.js, and MongoDB, integrating smart features for content suggestions and management.`, 
       image: project9, 
       tags: ['React', 'Node.js', 'MongoDB'],
-      live: '#'
+      live: "https://quick-blog-ai-website.vercel.app/",
+      github:"https://github.com/Sswathi17/QuickBlog-Ai-Website"
     },
   ];
 
-  // ✅ Return is inside the component function
+  
   return (
     <section
       id="projects"
