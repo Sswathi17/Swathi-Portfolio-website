@@ -8,6 +8,7 @@ import project6 from '../assets/project 6.jpg';
 import project7 from '../assets/project 7.jpg';
 import project8 from '../assets/project 8.jpg';
 import project9 from '../assets/project 9.jpg';
+import project10 from '../assets/project 10.jpg';
 
 import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
@@ -104,6 +105,26 @@ Built with React, Node.js, and MongoDB, integrating smart features for content s
       live: "https://quick-blog-ai-website.vercel.app/",
       github:"https://github.com/Sswathi17/QuickBlog-Ai-Website"
     },
+    { 
+  id: 10, 
+  title: 'Taxi Booking App', 
+  desc: `A full-stack taxi booking application where users can book rides, view trip history, and manage bookings.
+Built using the PERN stack with secure authentication and efficient backend APIs for real-time booking management.`, 
+  image: project10, 
+  tags: ['React', 'Node.js', 'Express.js', 'PostgreSQL'],
+  live: "https://taxi-booking-gilt.vercel.app/",
+  github: "https://github.com/Sswathi17/Taxi-Booking"
+}
+    { 
+  id: 11, 
+  title: 'Personal Portfolio Website', 
+  desc: `A modern and responsive portfolio website to showcase projects, skills, and developer profile.
+Designed with clean UI, smooth navigation, and structured sections for better user experience.`, 
+  image: project11, 
+  tags: ['HTML', 'CSS', 'JavaScript','React js'],
+  live: "https://swathi-portfolio-website.vercel.app/",
+  github: "https://github.com/your-username/portfolio-website"
+}
   ];
 
   
